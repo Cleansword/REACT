@@ -1,12 +1,10 @@
 import { useState } from 'react'
-
-
-
 import './App.css'
 
 function App() {
   // const counter=0;
   let [counter,setCounter]=useState(0);
+  
   const addvalue=()=>{
     if(counter<20){
       setCounter(counter+1);
